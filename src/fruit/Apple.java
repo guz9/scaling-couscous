@@ -6,11 +6,13 @@ public class Apple {
 	
 	boolean clean;
 	
+
 	public void ate() {
 		price -= 800;
 	}
 	
-	public void clean () {
+	
+	public void wash() {
 		clean = true;
 	}
 }
